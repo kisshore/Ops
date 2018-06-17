@@ -1,5 +1,5 @@
 
-# Neme
+# Name
 ## place
 - abc
 - xyz
