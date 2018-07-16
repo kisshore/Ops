@@ -24,8 +24,39 @@ umask
 getfacl /var/log/messages
 setfacl -m rules files
 ```
-### CHAPTER 6. GAINING PRIVILEGES
+#### 4. CHAPTER 6. GAINING PRIVILEGES
 ```
 # usermod -a -G wheel username
 #cat /etc/sudoers
+```
+#### 5. CHAPTER 9. YUM
+```
+yum check-update
+yum update rpm
+yum search vim
+```
+#### 6. CHAPTER 10. MANAGING SERVICES WITH SYSTEMD
+```
+service name start
+service name stop
+service name restart
+service name reload
+service name status
+service --status-all
+chkconfig name on
+chkconfig --list
+systemctl is-active name.service
+systemctl is-enabled name.service
+```
+#### 7. CHAPTER 12. OPENSSH
+```
+systemctl start sshd.service
+cat /etc/ssh/sshd_config
+```
+
+#### 8. CHAPTER 23. AUTOMATING SYSTEM TASKS
+```
+cat /etc/crontab
+crontab -l
+crontab -e
 ```
