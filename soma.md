@@ -1,8 +1,6 @@
 
 # Soma
-## Rajahmundry
-- abc
-- edf
+
 1.Chapter - 3 Time & Date
 
 timedatectl			displaying current and global time zone with NTP configuration status.
