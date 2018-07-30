@@ -1,5 +1,5 @@
 ## Docker tutorial
- - https://github.com/docker/dceu_tutorials ( 1,3,4,5,6, 7 Chapters)
+ - https://github.com/docker/dceu_tutorials ( 1,6, 7 Chapters)
 
 ```
 ## Commands : 
